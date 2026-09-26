@@ -1,0 +1,15 @@
+com\TheOptimizer\KisanFinTech\client\GeocodingClient.class
+com\TheOptimizer\KisanFinTech\client\SoilClient.class
+com\TheOptimizer\KisanFinTech\dto\FeatureData.class
+com\TheOptimizer\KisanFinTech\client\MlClient.class
+com\TheOptimizer\KisanFinTech\config\WebClientConfig.class
+com\TheOptimizer\KisanFinTech\config\CorsConfig.class
+com\TheOptimizer\KisanFinTech\service\MarketDataService$Row.class
+com\TheOptimizer\KisanFinTech\client\WeatherClient.class
+com\TheOptimizer\KisanFinTech\dto\RecommendationRequest.class
+com\TheOptimizer\KisanFinTech\KisanFinTechApplication.class
+com\TheOptimizer\KisanFinTech\service\RecommendationService.class
+com\TheOptimizer\KisanFinTech\controller\RecommendationController.class
+com\TheOptimizer\KisanFinTech\exception\ApiExceptionHandler.class
+com\TheOptimizer\KisanFinTech\service\MarketDataService.class
+com\TheOptimizer\KisanFinTech\dto\LocationData.class
