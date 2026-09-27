@@ -182,4 +182,153 @@ Actual crop prices and agricultural results can vary depending on market conditi
 
 Built for BIT N BUILD 2026 — Team The Optimizer
 
+## ⚙️ Setup & Installation
 
+### Prerequisites
+
+Make sure the following are installed:
+
+- Java 21+
+- Maven
+- Python 3.x
+- Node.js 24+
+- npm
+- Git
+
+### 1. Clone the Repository
+
+    git clone <YOUR_GITHUB_REPOSITORY_URL>
+    cd KisanFintech
+
+### 2. Run the ML Service
+
+Open a terminal and navigate to the ML folder:
+
+    cd ML
+
+Install the required Python dependencies:
+
+    pip install flask flask-cors pandas numpy scikit-learn plotly
+
+Start the ML API:
+
+    python app.py
+
+The ML API will run on:
+
+    http://localhost:8000
+
+Keep this terminal running.
+
+### 3. Run the Spring Boot Backend
+
+Open a second terminal:
+
+    cd KisanFinTech-backend-final
+
+Start the Spring Boot application:
+
+    mvn spring-boot:run
+
+The backend will run on:
+
+    http://localhost:8080
+
+Keep this terminal running.
+
+### 4. Run the React Frontend
+
+Open a third terminal:
+
+    cd KisanFin-tech
+
+Install the frontend dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+The frontend will run on:
+
+    http://localhost:5173
+
+Open the URL in your browser.
+
+## 🔄 Application Flow
+
+    Farmer
+       │
+       │ Location + Pincode + Sowing Date
+       ▼
+    React Frontend
+       │
+       ▼
+    Spring Boot Backend
+       │
+       ├── Geocoding
+       ├── Weather Data
+       ├── Soil / Geospatial Data
+       └── Phosphorus Mapping
+       │
+       ▼
+    ML API
+       │
+       ├── Temperature
+       ├── Humidity
+       ├── Moisture
+       ├── Soil Type
+       └── Phosphorous
+       │
+       ▼
+    KNN Model
+       │
+       ▼
+    Crop Prediction
+       │
+       ▼
+    Spring Boot
+       │
+       └── Market Price Dataset
+       │
+       ▼
+    React Dashboard
+       │
+       ├── Crop Recommendation
+       ├── Weather Information
+       ├── Market Information
+       └── Price Visualization
+
+## 🧪 API Testing
+
+The main recommendation endpoint is:
+
+    POST http://localhost:8080/api/recommendations
+
+### Request Body
+
+    {
+      "location": "Bhopal",
+      "pincode": "462003",
+      "sowingDate": "2026-09-26"
+    }
+
+### Header
+
+    Content-Type: application/json
+
+The backend automatically:
+
+1. Converts the location and pincode into coordinates.
+2. Fetches weather and soil-related data.
+3. Normalizes the soil type.
+4. Maps phosphorus according to the configured soil category.
+5. Sends the required features to the ML API.
+6. Gets crop predictions from the KNN model.
+7. Enriches the top recommendations with market-price data.
+8. Sends the final data to the React dashboard.
+
+## 🛑 Stopping the Application
+
+Press Ctrl + C in each running terminal to stop the corresponding service.
