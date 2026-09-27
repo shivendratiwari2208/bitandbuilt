@@ -100,6 +100,7 @@ This gives the user a more complete picture when comparing different crop option
 The goal is to make the output simple enough that a user does not need to understand machine learning or complex agricultural datasets to use the system.
 
 7. Key Features
+
 Location-based crop recommendation
 Weather-based analysis
 Soil-based analysis
@@ -116,7 +117,8 @@ Graphical visualization
 Real working ML model
 Designed specifically using Madhya Pradesh data
 
-8. Technology Used
+9. Technology Used
+
 Python
 Machine Learning
 K-Nearest Neighbors (KNN)
@@ -128,7 +130,8 @@ Backend API
 Frontend web application
 Data visualization
 
-9. Project Structure. 
+11. Project Structure.
+
 bitandbuilt/
 │
 ├── ml-model/
@@ -139,7 +142,7 @@ bitandbuilt/
 │   └── README.md
 │
 └── README.md
-10. Data Scope
+13. Data Scope
 
 The current machine learning model is trained on Madhya Pradesh data.
 
