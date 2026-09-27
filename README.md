@@ -130,16 +130,19 @@ Backend API
 Frontend web application
 Data visualization
 
-11. Project Structure.
+ 10. Project Structure
+
 
 bitandbuilt/
 │
-├── ml-model/
-│   ├── KNN.pkl
-│   ├── le1.pkl
-│   ├── le2.pkl
-│   ├── Soil.ipynb
-│   └── README.md
+├── KisanFin-tech/
+│   └── Frontend files
+│
+├── KisanFinTech-backend-final/
+│   └── Backend files
+│
+├── ML/
+│   └── Machine Learning files
 │
 └── README.md
 13. Data Scope
