@@ -32,6 +32,7 @@ The model recommends suitable crops and provides their estimated probabilities. 
 Finally, the frontend displays the top 3 crops with the best expected return per quintal using an easy-to-understand graph.
 
 3. How It Works
+
 User Input
    ↓
 Pincode + Location + Land Area + Current Date
