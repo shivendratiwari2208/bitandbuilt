@@ -1,0 +1,6 @@
+Flask
+flask-cors
+pandas
+numpy
+scikit-learn==1.9.0
+gunicorn
