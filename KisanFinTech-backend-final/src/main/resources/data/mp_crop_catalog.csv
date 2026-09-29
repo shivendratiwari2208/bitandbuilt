@@ -1,0 +1,24 @@
+crop|category|marketGroup|statewideMajor|harvestDaysMin|harvestDaysMax|avgInvestmentPerHectare|avgYieldQuintalPerHectare|benchmarkPricePerQuintal|soilTypes|minTemperatureC|maxTemperatureC|source|note|seasons|sowingWindows
+Soybean|Oilseed|Soybean|true|90|120|30000|14|4500|Black;Loamy;Clayey|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Paddy|Cereal|Paddy|true|110|150|45000|35|2400|Clayey;Loamy|22|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-31
+Maize|Cereal|Maize|true|80|120|30000|30|2200|Loamy;Black;Clayey|18|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF;RABI|KHARIF:06-15-07-31;RABI:10-15-11-15
+Pigeonpea (Arhar)|Pulse|Pigeonpea|true|150|200|28000|10|7000|Black;Loamy|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Green Gram (Moong)|Pulse|Green Gram|false|60|80|22000|8|7500|Loamy;Sandy|25|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF;ZAID|KHARIF:06-15-07-15;ZAID:03-15-04-15
+Black Gram (Urad)|Pulse|Black Gram|false|70|100|22000|8|7000|Loamy;Black|25|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-31
+Sorghum (Jowar)|Cereal|Jowar|true|100|130|24000|16|3000|Black;Loamy|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-31
+Pearl Millet (Bajra)|Cereal|Bajra|false|75|100|22000|12|2800|Sandy;Loamy|24|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-31
+Kodo Millet|Millet|Kodo Millet|false|100|130|20000|10|3500|Sandy;Loamy;Red|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Kutki|Millet|Kutki|false|90|120|19000|8|4000|Red;Loamy;Sandy|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Sesame (Til)|Oilseed|Sesame|false|80|110|18000|6|7500|Sandy;Loamy|24|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-31
+Groundnut|Oilseed|Groundnut|true|100|130|32000|18|6000|Sandy;Loamy|24|34|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Cotton|Cash Crop|Cotton|true|160|200|50000|18|7000|Black;Loamy|21|35|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Wheat|Cereal|Wheat|true|110|140|32000|35|2500|Loamy;Black;Clayey|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-12-15
+Chickpea (Gram)|Pulse|Chickpea|true|100|130|26000|12|5500|Black;Loamy|10|28|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Lentil (Masoor)|Pulse|Lentil|false|100|130|22000|9|6500|Loamy;Black|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Pea|Vegetable|Pea|false|60|90|30000|80|3000|Loamy;Sandy|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Mustard|Oilseed|Mustard|true|100|140|25000|12|6000|Loamy;Black;Sandy|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Barley|Cereal|Barley|false|100|130|23000|25|2200|Loamy;Sandy|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Linseed (Alsi)|Oilseed|Linseed|false|110|140|22000|8|6500|Loamy;Black|10|25|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
+Sugarcane|Cash Crop|Sugarcane|true|300|420|90000|700|350|Loamy;Black;Clayey|20|35|MP planning benchmark|Planning estimate; local conditions vary|ANNUAL|ANNUAL:02-15-04-15
+Niger (Ramtil)|Oilseed|Niger|false|90|120|18000|5|7000|Red;Sandy;Loamy|20|32|MP planning benchmark|Planning estimate; local conditions vary|KHARIF|KHARIF:06-15-07-15
+Tobacco|Cash Crop|Tobacco|false|100|140|45000|18|5000|Sandy;Loamy|18|30|MP planning benchmark|Planning estimate; local conditions vary|RABI|RABI:10-15-11-30
